@@ -52,7 +52,7 @@ func main() {
 		tcp += 2
 	}
 
-	go run(quit, "nsqadmin", "--lookupd-http-address", ":4161")
+	go run(quit, "nsqadmin", "--lookupd-http-address", ":4171")
 	go run(quit, "nsqlookupd")
 
 	Shutdown()
